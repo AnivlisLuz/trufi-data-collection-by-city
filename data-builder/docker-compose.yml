@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  data_builder:
+    image: data_builder
+    build: .
+    environment: 
+      - city=$city
+      - bbox=$bbox
+      - geofabrik_url_path=$geofabrik_url_path
+    volumes:
+      - ../gtfs-builder/cities/$city/out/gtfs.zip:/app/gtfs.zip
+      - ../data:/app/out

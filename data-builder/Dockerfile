@@ -1,0 +1,17 @@
+FROM ubuntu:18.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt update
+RUN apt install -y osmium-tool wget unzip zip
+
+WORKDIR /app
+
+RUN wget https://github.com/systemed/tilemaker/releases/download/v2.0.0/tilemaker-ubuntu-16.04.zip
+RUN unzip tilemaker-ubuntu-16.04.zip -d tilemaker
+RUN chmod +x ./tilemaker/build/tilemaker
+
+COPY ./run.sh ./run.sh
+RUN chmod +x ./run.sh
+
+ENTRYPOINT [ "sh", "./run.sh" ]
