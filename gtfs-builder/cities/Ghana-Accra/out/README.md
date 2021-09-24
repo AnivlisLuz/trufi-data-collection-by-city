@@ -1,5 +1,5 @@
 ### Count
-**Total**: 564  **Correct**: 555  **With error**: 9
+**Total**: 564  **Correct**: 556  **With error**: 8
 
 
 | Id | Name | Ref | From | To | State |
@@ -8,7 +8,7 @@
 [7421011](https://www.openstreetmap.org/relation/7421011) | Trotro 2 : Osu (37 Station) → 37 Lorry Park | 2 | Osu (37 Station) | 37 Lorry Park | ✅
 [7441225](https://www.openstreetmap.org/relation/7441225) | Trotro 3 : 37 Lorry Park → Tse Addo | 3 | 37 Lorry Park | Tse Addo | ✅
 [7441865](https://www.openstreetmap.org/relation/7441865) | Trotro 3 : Tse Addo → 37 Lorry Park | 3 | Tse Addo | 37 Lorry Park | ✅
-[7435456](https://www.openstreetmap.org/relation/7435456) | Trotro 4 : Abeka Lapaz → Ashaiman Main Station | 4 | Abeka Lapaz | Ashaiman Main Station | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(7435456);out%20geom;%0Away(893358164);out%20geom;%0Away(112738210);out%20geom;&R)
+[7435456](https://www.openstreetmap.org/relation/7435456) | Trotro 4 : Abeka Lapaz → Ashaiman Main Station | 4 | Abeka Lapaz | Ashaiman Main Station | ✅
 [7435650](https://www.openstreetmap.org/relation/7435650) | Trotro 4 : Ashaiman Main Station → Abeka Lapaz | 4 | Ashaiman Main Station | Abeka Lapaz | ✅
 [7416294](https://www.openstreetmap.org/relation/7416294) | Trotro 6 : Abeka Lapaz → Sakumono Estate | 6 | Abeka Lapaz | Sakumono Estate | ✅
 [7418029](https://www.openstreetmap.org/relation/7418029) | Trotro 6 : Sakumono Estate → Abeka Lapaz | 6 | Sakumono Estate | Abeka Lapaz | ✅
