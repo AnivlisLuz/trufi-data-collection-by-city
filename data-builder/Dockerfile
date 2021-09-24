@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update
-RUN apt install -y osmium-tool wget unzip zip
+RUN apt install -y osmium-tool wget unzip
 
 WORKDIR /app
 
