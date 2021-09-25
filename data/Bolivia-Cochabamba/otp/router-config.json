@@ -1,0 +1,7 @@
+{
+	"requestLogFile": "/app/graphs/requests.log",
+	"routingDefaults": {
+		"transferPenalty": 300
+	}
+}
+
