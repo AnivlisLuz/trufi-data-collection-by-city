@@ -3,3 +3,4 @@ node_modules/
 data/*/maps
 data/*/otp
 data/*/tiles
+data-builder/data/*/city.mbtiles
