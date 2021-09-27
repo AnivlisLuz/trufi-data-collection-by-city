@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  map_builder:
+    image: map_builder
+    build: .
+    environment: 
+      - city=$city
+      - bbox=$bbox
+    volumes:
+      - ../data:/app/out
+    depends_on:
+      tileserver:
+        condition: service_healthy
+
+  tileserver:
+    image: klokantech/tileserver-gl
+    volumes:
+      - ../data/$city/tiles:/data
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost/health"]
+        interval: 5s
+        timeout: 2s
+        retries: 5
