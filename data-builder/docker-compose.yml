@@ -10,3 +10,4 @@ services:
       - geofabrik_url_path=$geofabrik_url_path
     volumes:
       - ../data:/app/out
+      - ./data:/app/tiles
