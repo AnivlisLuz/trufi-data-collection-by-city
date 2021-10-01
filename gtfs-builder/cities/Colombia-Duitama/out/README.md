@@ -1,12 +1,13 @@
 ### Count
-**Total**: 55  **Correct**: 53  **With error**: 2
+**Total**: 56  **Correct**: 52  **With error**: 4
 
 
 | Id | Name | Ref | From | To | State |
 | -- | ---- | --- | ---- | -- | ----- |
-[13217723](https://www.openstreetmap.org/relation/13217723) | Directo Duitama-Bogota | undefined | Duitama | Bogotá | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(13217723);out%20geom;%0Away(378942576);out%20geom;%0Away(378942705);out%20geom;&R)
-[13225141](https://www.openstreetmap.org/relation/13225141) | undefined | undefined | undefined | undefined | ✅
-[13253160](https://www.openstreetmap.org/relation/13253160) | Bogotá-Cúcuta | undefined | Bogotá | Cúcuta | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(13253160);out%20geom;%0Away(404047777);out%20geom;%0Away(690658771);out%20geom;&R)
+[13217723](https://www.openstreetmap.org/relation/13217723) | Directo Duitama-Bogota | undefined | Duitama | Bogotá | [route without ref](https://overpass-turbo.eu/?Q=//route%20without%20ref%0Arel(13217723);out%20geom;&R)
+[13225141](https://www.openstreetmap.org/relation/13225141) | undefined | undefined | undefined | undefined | [route without ref](https://overpass-turbo.eu/?Q=//route%20without%20ref%0Arel(13225141);out%20geom;&R)
+[13253160](https://www.openstreetmap.org/relation/13253160) | Bogotá-Cúcuta | undefined | Bogotá | Cúcuta | [route without ref](https://overpass-turbo.eu/?Q=//route%20without%20ref%0Arel(13253160);out%20geom;&R)
+[13260428](https://www.openstreetmap.org/relation/13260428) | Cúcuta-Bogotá | undefined | Cúcuta | Bogotá | [route without ref](https://overpass-turbo.eu/?Q=//route%20without%20ref%0Arel(13260428);out%20geom;&R)
 [6525438](https://www.openstreetmap.org/relation/6525438) | A1 - Juan Grande - Once de Mayo | A1 | Juan Grande | 11 de Mayo | ✅
 [6525439](https://www.openstreetmap.org/relation/6525439) | A1 - Once de Mayo - Juan Grande | A1 | 11 de Mayo | Juan Grande | ✅
 [6553806](https://www.openstreetmap.org/relation/6553806) | A10 - Barrio Colombia - Ciudadela Industrial | A10 | Barrio Colombia | Ciudadela Industrial | ✅

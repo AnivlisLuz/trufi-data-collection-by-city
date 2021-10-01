@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "trufi-osm-to-gtfs": "git+https://github.com/trufi-association/trufi-osm-to-gtfs.git#1fee0dc172cc076e9cb9a797905594dd581098d0"
+    "trufi-osm-to-gtfs": "git+https://github.com/trufi-association/trufi-osm-to-gtfs.git#beef157c592532a097c26c7567c008da4b561fac"
   }
 }
