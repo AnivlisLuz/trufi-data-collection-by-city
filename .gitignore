@@ -1,6 +1,6 @@
 node_modules/
 .DS_Store
 data/*/maps
-data/*/otp
+data/*/otp/*.pbf
 data/*/tiles
 data-builder/data/*/city.mbtiles
