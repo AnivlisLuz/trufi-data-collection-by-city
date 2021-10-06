@@ -1,14 +1,10 @@
-const { osmToGtfs, OSMOverpassDownloader } = require('trufi-osm-to-gtfs')
+const { osmToGtfs, OSMPBFReader } = require('trufi-osm-to-gtfs')
+const path = require('path')
 // -66.453088,-17.762296,-65.758056,-17.238372
 osmToGtfs({
-  outputFiles: { outputDir: __dirname + '/out' },
+  outputFiles: { outputDir: __dirname + '/out', gtfs: false },
   geojsonOptions: {
-    osmDataGetter: new OSMOverpassDownloader({
-      west: -66.453088,
-      south: -17.762296,
-      east: -65.758056,
-      north: -17.238372
-    })
+    osmDataGetter: new OSMPBFReader(path.join(__dirname, "city.osm.pbf"))
   },
   gtfsOptions: {
     stopNameBuilder: stops => {
